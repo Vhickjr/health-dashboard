@@ -1,15 +1,15 @@
 import{BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Sidebar from './components/sidebar/sidebar'
+import Sidebar from  './components/sidebar/Sidebar'
 import Header from './components/header/Header'
 import Overview from './pages/Overview'
 import Appointment from './pages/Appointment'
 import Chats from './pages/Chats'
 import Doctor from './pages/Doctor'
-import Login from './pages/login'
+import Login from './pages/Login'
 import Logout from './pages/Logout'
 import Pathology from './pages/Pathology'
 import Settings from './pages/Settings'
-import Signup from './pages/signup'
+import Signup from './pages/Signup'
 import './App.css'
 
 function App() {
